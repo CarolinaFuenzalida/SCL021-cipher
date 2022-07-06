@@ -3,30 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
-    <div>
-      <h1 class=" tituloUno"> ¿Quieres cifrar un mensaje en código?</h1>
-      <h2 class="cajaUno"> Ingresa tu texto aqui</h2> 
-    </div> <br>
-    <div class="cajaUno"> 
-      <input type="text" id="cajaTexto" value="" placeholder="Una sola palabra, en mayusculas" autocomplete="off"
-      size="30">
-      </div>
-      <div class="rango"> 
-        <input id="rango" type="range" value="3" min="1" max="5" oninput="this.nextElementSibling.value = this.value">
-  <output>3</output>
-      </div>
-      <br><br><br>
-      <div class="cajaUno">
-      <button class="button-1" onclick="cifrarTexto()">Cifrar</button> 
-      <button class="button-1" onclick="cifrarTexto()">Descifrar cambia funcion</button> 
-      <br><br><br>
-      
-      <textarea id="demo" name="hola" rows="10" cols="40"> 
-      </textarea>
+    <h1 class="tituloUno"> ¿Quieres cifrar un mensaje como espia?</h1>
+    <h2 class="cajaUno"> Ingresa tu texto aqui</h2> <br><br><br><br>
+   <div class="cajaUno"> 
+  <input id="texto" type="text" placeholder="Una sola palabra, en mayusculas" autocomplete="off"
+    size="50"> 
+  <input id="rango" type="range" value="" min="1" max="10" 
+  oninput="this.nextElementSibling.value = this.value">
+  <output>5</output>
+<br><br><br><br>
+  <button  class="button-1" onclick="cipher()">Cifrar</button>
+  <button  class="button-1" onclick="descifrar()">Descifrar</button>
+<br><br><br>
+ <textarea id="resultado" name="hola" rows="10" cols="40"> 
+    </textarea> <br><br>
     </div>
-    <script src="index.js"></script>
+    <br><br><br><br>
+    <footer> Proyecto Cipher / Carolina Fuenzalida </footer>
+    <script src="index.js"></script> 
   </body>
 </html>

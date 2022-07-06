@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+html, body {
+  background-image: url(../img/spyFamilyB.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #4cccb0;
+}
+* {
+  font-family: 'Source Code Pro', monospace;
+}
+.tituloUno 
+{font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color: #4cccb0;
+  }
+.cajaUno {
+    margin: auto;
+    text-align: center;
+    width:500px;
+}
+
+:root {
+  --color-terminal: #373a3a;
+  --borde-redondo: 4px;
+}
+.rango {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 30px;
+  text-align: center;
+  align-items: center;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  border-radius: var(--borde-redondo);
+  background:var(--color-terminal);
+  margin: 0;
+  padding: 0 5px;
+  height: 20px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  cursor: pointer;
+  -webkit-appearance: none;
+  background:white;
+  border-radius: 50%;
+  height:10px;
+  width:10px;
+}
+
+
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: auto;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
