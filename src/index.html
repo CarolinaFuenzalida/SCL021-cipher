@@ -3,26 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style1.css"/>
   </head>
   <body>
-    <h1 class="tituloUno"> ¿Quieres cifrar un mensaje como espia?</h1>
-    <h2 class="cajaUno"> Ingresa tu texto aqui</h2> <br><br><br><br>
-   <div class="cajaUno"> 
-  <input id="texto" type="text" placeholder="Una sola palabra, en mayusculas" autocomplete="off"
-    size="50"> 
-  <input id="rango" type="range" value="" min="1" max="10" 
-  oninput="this.nextElementSibling.value = this.value">
-  <output>5</output>
-<br><br><br><br>
-  <button  class="button-1" onclick="cipher()">Cifrar</button>
-  <button  class="button-1" onclick="descifrar()">Descifrar</button>
-<br><br><br>
- <textarea id="resultado" name="hola" rows="10" cols="40"> 
-    </textarea> <br><br>
+    <div class="tituloUno"> ¿Quieres cifrar un mensaje como espia?</div>
+    <br><br><br>
+    <div class="introduccion"> Si eres el mejor fan de Spy X Family
+       te invitamos a que cifres mensajes en un código ultra secreto 
+      proporcionado por Loid Forger para que puedas compartir con tus amigos, 
+      de esta forma nadie sabra de que estan hablando.
+  <a href="index2.html">
+    <input type="button"  class="button-1" value="¡Quiero Intentarlo!"> 
+  </a> 
     </div>
-    <br><br><br><br>
-    <footer> Proyecto Cipher / Carolina Fuenzalida </footer>
+    <footer id="pieDePagina"> Proyecto Cipher / Carolina Fuenzalida </footer>
     <script src="index.js"></script> 
   </body>
 </html>

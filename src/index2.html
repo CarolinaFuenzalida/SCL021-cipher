@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+  <body>
+    <h1 class="tituloUno">
+      ¡Bienvenido al cifrador de texto ultra <br />
+      secreto de Loid Forger!
+    </h1>
+    <div class="tutorialCipher">
+      <br />
+      ¡Anya puede enseñarte a usarlo! <br /><br />
+      Es muy fácil, solo ingresa tu texto y luego elige cuantos espacios deseas
+      que tu mensaje se mueva, mientras más espacios más dificil de descifrar y
+      secreto se volverá. <br /><br />
+      ¡Intenta con tu nombre para descubrir cuál es tu nombre de espia!
+      <br />
+      <br />
+      <br />
+      <hr />
+      <h2 class="cajaUno">Ingresa tu texto aqui</h2>
+      <br />
+      <input
+        id="texto"
+        type="text"
+        placeholder="Solo letras en mayúsculas, minúsculas o espacios"
+        autocomplete="off"
+        size="70"
+      />
+      <br /><br />
+      <input
+        id="rango"
+        type="range"
+        value=""
+        min="3"
+        max="35"
+        oninput="this.nextElementSibling.value = this.value"
+      />
+      <output>15</output> <br /><br />
+      <button class="button-1" id="cifrar">Cifrar</button>
+      <button class="button-1" id="descifrar">Descifrar</button>
+      <br /><br />
+      <textarea id="resultado" name="hola" rows="10" cols="40"> </textarea>
+      <br /><br />
+      <a href="index.html">
+        <input type="button" class="button-1" value="Volver a Inicio" />
+      </a>
+    </div>
+    <footer id="pieDePagina">Proyecto Cipher / Carolina Fuenzalida</footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

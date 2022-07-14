@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+html, body {
+  background-image: url(../img/spyFamilyA.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #4cccb0;
+}
+* {
+  font-family: 'Source Code Pro', monospace;
+}
+.tituloUno {
+    font-size: 60px;
+    
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+    color: #353c3a;
+    padding: 20px;
+  }
+
+.introduccion { font-size: 27px;
+  font-family:'Source Code Pro', monospace;
+border-style: outset;
+border-color:cadetblue;
+text-align:left;
+position:absolute;
+display: flex;
+width:700px;
+height: 450px;
+padding:30px;
+right: 40px;
+justify-content: center;
+background-color: #2d6a4f;
+color: white;
+align-items:flex-end;
+align-items: center;
+}
+img {
+  float: bottom;
+}
+
+p.clear {
+  clear: both;
+}
+.button-1 {
+  background-color: #161716;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ccc4c4;
+  cursor: pointer;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 17px;
+  font-weight: 500;
+  height: 60px;
+  line-height: 30px;
+  list-style: none;
+  margin: auto;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  right: 0cm;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #40916c;
+
+}
+
+
+#pieDePagina {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: rgb(64, 62, 62);
+}
