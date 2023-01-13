@@ -22,6 +22,8 @@ Mi pagina web esta destinada a aquellos que quieran vivir esta experiencia de se
 
 ## Diseño 
 
+![Captura de pantalla 2023-01-12 222156](https://user-images.githubusercontent.com/108352521/212223642-8b49ca18-71e2-4601-92f7-2bc421ac4904.png)
+
 Me basé en la experiencia de mi sobrina, a la cual le encanta ver series animadas y anime, le gusta imitar ciertos comportamientos de los personajes tales como los niños de su edad, le encanta interactuar con sus amigos ya sea intercambiando cartas o figuritas de algunos shows.  Eso fue lo que me llevó a pensar en este uso para el Cifrado César, para que tengan algo con lo que jugar a ser espías y hacerlo un poco más real para ellos :female_detective:.
 
 Mi página es muy sencilla de usar y viene con una Introducción en la página principal junto con un botón que lleva al cifrador y descifrador de texto, dentro de esta segunda página se encuentran instrucciones de como usar el input de texto y el offset, haciéndolo así aún más fácil para un público joven.
